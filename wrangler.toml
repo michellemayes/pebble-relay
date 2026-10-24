@@ -1,0 +1,11 @@
+name = "pebble"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+# Secrets (RELAY_SECRET, PERSONAL_ROUTINE_URL, PERSONAL_ROUTINE_TOKEN,
+# WORK_ROUTINE_URL, WORK_ROUTINE_TOKEN) are set in Cloudflare, not here.
+# Deploys keep them as long as they are not overwritten: see README.
+keep_vars = true
+
+[ai]
+binding = "AI"
