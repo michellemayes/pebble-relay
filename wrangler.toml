@@ -9,3 +9,7 @@ keep_vars = true
 
 [ai]
 binding = "AI"
+
+# Keep Workers Logs on: a deploy applies whatever this file says.
+[observability]
+enabled = true
